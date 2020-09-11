@@ -1,0 +1,41 @@
+@mixin transition( $value ) {
+    -webkit-transition: $value; /* Safari/Chrome, other WebKit */
+    -moz-transition: $value; /* Firefox, other Gecko */
+    -o-transition: $value; /* Opera/IE 8+ */
+    transition: $value;
+}
+
+@mixin transform( $value ) {
+    -webkit-transform: $value; /* Safari/Chrome, other WebKit */
+    -moz-transform: $value; /* Firefox, other Gecko */
+    -o-transform: $value; /* Opera/IE 8+ */
+    transform: $value;
+}
+
+@mixin boxShadow( $value ) {
+    -webkit-box-shadow: $value; /* Safari/Chrome, other WebKit */
+    -moz-box-shadow: $value; /* Firefox, other Gecko */
+    -o-box-shadow: $value; /* Opera/IE 8+ */
+    box-shadow: $value;
+}
+
+@mixin boxSizing( $value ) {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+
+@mixin placeholder {
+    &::-webkit-input-placeholder {
+        @content
+    }
+    &:-moz-placeholder {
+        @content
+    }
+    &::-moz-placeholder {
+        @content
+    }
+    &:-ms-input-placeholder {
+        @content
+    }
+}

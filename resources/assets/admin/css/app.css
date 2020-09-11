@@ -1,0 +1,46 @@
+.is-valid .select2-container--default.select2-container--focus .select2-selection--multiple,
+.is-valid .select2-container--default.select2-container--focus .select2-selection--single {
+  border-color: #0abb87;
+}
+
+.is-valid .select2-container--default.select2-container--open .select2-selection--multiple,
+.is-valid .select2-container--default.select2-container--open .select2-selection--single {
+  border-color: #0abb87;
+}
+
+.is-invalid .select2-container--default .select2-selection--multiple,
+.is-invalid .select2-container--default .select2-selection--single {
+  border-color: #fd397a;
+}
+
+.is-invalid .select2-container--default.select2-container--focus .select2-selection--multiple,
+.is-invalid .select2-container--default.select2-container--focus .select2-selection--single {
+  border-color: #fd397a;
+}
+
+.is-invalid .select2-container--default.select2-container--open .select2-selection--multiple,
+.is-invalid .select2-container--default.select2-container--open .select2-selection--single {
+  border-color: #fd397a;
+}
+
+.group-control.is-invalid ~ .invalid-feedback {
+  display: block;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+.__switch-flex-label {
+  padding-top: 8px;
+}
+
+#wrapper-active-company {
+    display:inline-block;
+    width: 400px;
+}
+
+#wrapper-active-country {
+    display:inline-block;
+    width: 200px;
+}

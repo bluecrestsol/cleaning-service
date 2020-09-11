@@ -1,0 +1,46 @@
+a {
+    &:hover {
+        color: inherit;
+    }
+}
+
+.bookings-contact {
+    button {
+        a {
+            color: inherit;
+        }
+    }
+}
+
+.navbar {
+    .country-selector,
+    .locale-selector {
+        display: block;
+    }
+}
+
+@media(min-width: $mobile) {
+    .navbar {
+        .country-selector,
+        .locale-selector {
+            display: none;
+        }
+    }
+
+    .pricing-table {
+        td {
+            text-align: center !important;
+        }
+    }
+}
+
+.home-shield {
+    width: 300px;
+    @media(min-width: $mobile){
+        width: auto;
+        height: 315px;
+    }
+    @media(min-width: $desktop){
+        height: 450px;
+    }
+}

@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'dashboard' => 'Dashboard',
+    'geo' => 'Geo',
+    'states' => 'States',
+    'cities' => 'Cities',  
+    'districts' => 'Districts',  
+    'countries' => 'Countries',
+    'languages' => 'Languages',
+    'currencies' => 'Currencies',
+    'staff' => 'Staff',
+    'customers' => 'Customers',
+    'roles' => 'Roles',
+    'companies' => 'Companies',
+    'places_categories' => 'Places categories',
+    'places' => 'Places',
+    'crew_members' => 'Crew members',
+    'bookings' => 'Bookings',
+    'appointments' => 'Appointments',
+    'faqs' => 'FAQs',
+    'faqs_categories' => 'Categories',
+    'faqs_questions' => 'Questions',
+    'contracts' => 'Contracts',
+    'agents' => 'Agents',
+    'services' => 'Services',
+    'contact_requests' => 'Contact requests',
+];

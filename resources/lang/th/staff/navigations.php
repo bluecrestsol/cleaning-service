@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'dashboard' => 'TH Dashboard',
+    'geo' => 'TH Geo',
+    'states' => 'TH States',
+    'cities' => 'TH Cities',  
+    'districts' => 'TH Districts',  
+    'countries' => 'TH Countries',
+    'languages' => 'TH Languages',
+    'currencies' => 'TH Currencies',
+    'staff' => 'TH Staff',
+    'customers' => 'TH Customers',
+    'roles' => 'TH Roles',
+    'companies' => 'TH Companies',
+    'places_categories' => 'TH Places categories',
+    'places' => 'TH Places',
+    'crew_members' => 'TH Crew members',
+    'bookings' => 'TH Bookings',
+    'appointments' => 'TH Appointments',
+    'faqs' => 'TH FAQs',
+    'faqs_categories' => 'TH Categories',
+    'faqs_questions' => 'TH Questions',
+    'contracts' => 'TH Contracts',
+    'agents' => 'TH Agents',
+    'services' => 'TH Services',
+    'contact_requests' => 'TH Contact requests',
+];
